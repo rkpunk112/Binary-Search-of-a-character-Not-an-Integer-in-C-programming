@@ -8,12 +8,7 @@ int arr1[7],low=0,high=size-1;
 char key;
 printf("Enter The element you wanna search:");
 scanf("%c",&key);
-/*int num=("%d",key);
-//copying the array
-for(int i=0;i<size;i++){
-arr1[i]=("%d",arr[i]);
-}
-*/
+
 //searching begin here
 for(int j=0;j<size;j++){
 int mid=(low+high)/2;
